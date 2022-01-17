@@ -2,7 +2,7 @@ make migrate:
 		python3 manage.py migrate
 
 make migrations:
-		python3 manage.py migrations
+		python3 manage.py makemigrations
 
 make user:
 		python3 manage.py createsuperuser
